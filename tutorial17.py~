@@ -1,0 +1,8 @@
+import gethtml
+import articletext
+
+url = "http://www.nytimes.com/2015/10/01/world/europe/russia-airstrikes-syria.html?hp&action=click&pgtype=Homepage&module=a-lede-package-region&region=top-news&WT.nav=top-news&_r=0"
+text = articletext.getArticle(url)
+
+
+print articletext.getKeyword(text)
